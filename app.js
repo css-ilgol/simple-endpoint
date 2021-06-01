@@ -16,7 +16,7 @@ webApplication.get('/hello', getHandler);
 
 const server = webApplication.listen(port, async () => {
   try {
-    console.log(`Eduard Example app v ${pjson.version} listening at http://${HOST}:${port}`);
+    console.log(`Roman Example app v ${pjson.version} listening at http://${HOST}:${port}`);
   } catch {
     server.close();
   }
